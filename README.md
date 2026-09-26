@@ -41,3 +41,7 @@ The PCB is designed for energy constrained wireless IoT applications where energ
 
 - `PCB Files/` contains the PCB design files.
 - `Images/` contains project images.
+
+## Schematic
+
+![Nordic Chip IoT PCB Schematic](Images/Schematic.png)
