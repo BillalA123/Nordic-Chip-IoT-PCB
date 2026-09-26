@@ -25,13 +25,13 @@ The PCB is designed for energy constrained wireless IoT applications where energ
 
 ## Hardware
 
-| Subsystem | Implementation |
+| Function | Hardware |
 |---|---|
 | Wireless MCU | Nordic nRF52805 |
 | GNSS | u-blox MAX-M10S |
 | Energy storage | 800 µF onboard capacitance |
 | Expansion | 12 through-hole capacitor positions |
-| Startup control | 3.3V micropower automatic startup |
+| Startup control | 3.3V automatic startup |
 | Temperature sensing | Thermistor 10kΩ 3380K|
 | GNSS antenna | SMA connector |
 
