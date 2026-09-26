@@ -1,6 +1,6 @@
 # Nordic Chip IoT PCB
 
-Low power wireless IoT sensing PCB integrating a Nordic nRF52805 Bluetooth LE MCU, GNSS receiver, expandable capacitor energy storage, and micropower power management.
+Low power wireless IoT sensing PCB integrating a Nordic nRF52805 Bluetooth MCU, GNSS receiver, expandable capacitor energy storage, and micropower power management.
 
 ## PCB
 
@@ -12,12 +12,11 @@ Low power wireless IoT sensing PCB integrating a Nordic nRF52805 Bluetooth LE MC
 - u-blox MAX-M10S GNSS receiver
 - 800 µF onboard capacitor energy bank
 - 12 expandable through-hole capacitor positions for additional energy storage
-- Automatic MCU and GNSS startup at approximately 3.2 V through a micropower startup circuit
-- Desolderable 0 Ω links for configurable GNSS connections
+- Automatic MCU and GNSS startup at approximately 3.3V through a micropower startup circuit
+- Desolderable 0 Ω Resistors for configurable GNSS connections
 - Low power thermistor temperature sensing
-- MCU voltage monitoring through an ADC divider
+- MCU voltage monitoring
 - Micropower load switching and power management
-- SWD programming and debugging interface
 - External SMA connector for the GNSS antenna
 
 ## Design Goal
