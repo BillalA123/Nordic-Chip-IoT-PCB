@@ -21,7 +21,7 @@ Low power wireless IoT sensing PCB integrating a Nordic nRF52805 Bluetooth MCU, 
 
 ## Design Goal
 
-The PCB is designed for energy constrained wireless IoT applications where energy is accumulated in the capacitor bank before the MCU and GNSS subsystem are activated. The expandable capacitor architecture allows additional energy storage to be added when the GPS operating requirements exceed the onboard capacitance.
+The PCB is designed for energy constrained wireless IoT applications where energy is accumulated in the capacitor bank before the MCU and GNSS subsystem are activated. The expandable capacitor bank allows additional energy storage to be added when the GPS operating requirements exceed the onboard capacitance.
 
 ## Hardware
 
@@ -31,16 +31,9 @@ The PCB is designed for energy constrained wireless IoT applications where energ
 | GNSS | u-blox MAX-M10S |
 | Energy storage | 800 µF onboard capacitance |
 | Expansion | 12 through-hole capacitor positions |
-| Startup control | 3.2 V micropower automatic startup |
-| Temperature sensing | Thermistor |
-| Voltage monitoring | MCU ADC |
+| Startup control | 3.3V micropower automatic startup |
+| Temperature sensing | Thermistor 10kΩ 3380K|
 | GNSS antenna | SMA connector |
-| Debug/programming | SWD |
-
-## Repository Contents
-
-- `PCB Files/` contains the PCB design files.
-- `Images/` contains project images.
 
 ## Schematic
 
